@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+label {
+    font-size: 1.2rem;
+    padding: 0.3rem 0;
+}
+
+label:before  {
+    content: "*";
+    color: red;
+    font-weight: 800;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+}
+
+button {
+    background-color: rgb(114, 130, 184);
+    color: white;
+    border: none;
+    padding: 0.5rem 0;
+    font-size: 1.3rem;
+}
+
+button:hover {
+    background-color: rgb(100, 116, 170);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+legend {
+    font-size: 2.7rem;
+}
+
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 3px solid black;
+}
+
+input {
+    height: 2.3rem;
+    padding: 0.3rem;
+}
+
+.input {
+ display: flex;
+ flex-flow: column nowrap;
+ width: 40%;
+}
+
+#sign-up-form-container {
+   align-self: center;
+   padding: 4rem;
+}
+
+#side {
+    background-color: rgb(154, 166, 230);
+    width: 40%;
+    height: 100vh;
+    padding: 0 3rem;
+    position: relative;
+}
+
+#side h2 {
+    font-size: 2.5rem;
+    color: white;
+    padding: 2rem 0;
+}
+
+svg {
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+}
